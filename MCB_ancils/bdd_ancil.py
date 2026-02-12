@@ -106,25 +106,6 @@ areas=np.zeros((numreg,1))
 rlats=[]
 rlons=[]
 
-
-# Define sea-salt injection rates for each region
-# ===============================================
-R1_ss_rate =  0.000             # Tg year-1    
-R2_ss_rate =  0.000 #11.000
-R3_ss_rate =  0.000
-R4_ss_rate =  0.000
-R5_ss_rate =  0.000
-R7_ss_rate =  0.000
-R8_ss_rate =  0.000 
-R9_ss_rate =  0.000
-R10_ss_rate =  0.000
-R11_ss_rate =  0.000
-R12_ss_rate =  0.000
-R13_ss_rate =  0.000
-R14_ss_rate =  0.000
-R15_ss_rate =  11.000 #0.000
-
-
 #-----------------------------------------------------------------------------------------
 # Read in a field of surface temperature to use as a pattern
 # to construct the emissions data:
