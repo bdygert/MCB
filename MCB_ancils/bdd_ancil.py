@@ -159,7 +159,7 @@ land_frac = iris.load_cube(landfile)
 #bdd
 for k in range(0,numreg):
     rlats.append(np.where((lats.points >= regsel[k][1]) & (lats.points <= regsel[k][3]))[0])
-    rlons.append(np.where((lons.points >= regsel[k][0]) & (lons.points <= regsel[0][2]))[0])
+    rlons.append(np.where((lons.points >= regsel[k][0]) & (lons.points <= regsel[k][2]))[0])
     for i in rlats[k]:
         for j in rlons[k]:
             if land_frac.data[i, j] == 0.0:
